@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!------------------------- Greetings ------------------------->
+        <header class="header">
+            <h1 id="title">
+                FEEDBACK FOR COUNSILHELP OF STI
+            </h1>
+            <p id="description">
+                Thank you so much for your time in completing our survey. It is greatly appreciated, as we will use your feedback to create a better customer experience. We appreciate your answers to this survey. This will enable us to improve our design and services so we can serve you better
+            </p>
+        </header>
+        <!------------------------- Information ------------------------->
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" class="formControl" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number: </label>
+                <input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="add">Address: <span class="clue">(optional)</span></label>
+                <input type="text" name="add" id="phone" class="formControl" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <p id="quest">
+                    Which option best describe your role in STI?
+                </p>
+                <select name="role" id="dropdown" class="formControl" required>
+                    <option value="" disabled selected>Select curren role</option>
+                    <option value="student">Student</option>
+                    <option value="prof">Professor/Instructor</option>
+                    <option value="faculty">Faculty Member</option>
+                    <option value="studenta">Student Assistant</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p id="quest">How did you know about the CounsilHelps?</p>
+                <label for="">
+                    <input type="radio" name="source" value="classmates" class="inputRadio">Friends/Classmates
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="prof" class="inputRadio">Professors
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="page" class="inputRadio">STI Page
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="ads" class="inputRadio">Ads
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="other" class="inputRadio">Other
+                </label>
+            </div>
+            <!------------------------- Questions ------------------------->
+            <div class="form-group">
+                <h2>A. Ease of Use and Accessibility</h2>
+                <p id="quest">The system is easy to navigate and helps users find needed features efficiently.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">I find the buttons and menus intuitive and user-friendly.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">Logging in and starting to use the system is straightforward and seamless.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest"> Instructions and prompts are clear and helpful for first-time users.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+            </div>
+            <div class="form-group">
+                <h2>B. Evaluation and Monitoring Efficiency</h2>
+                <p id="quest">Completing a peer evaluation is simple and efficient.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">The system effectively highlights students who need support.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">The reports generated by the system are clear and easy to interpret.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">Updates on flagged students are displayed promptly and accurately.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+            </div>
+            <div class="form-group">
+                <h2>C. Data Privacy and Security</h2>
+                <p id="quest">I feel my personal information is secure when using the system.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">Only authorized users can access sensitive data.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">The system clearly communicates how data is protected and used.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">Users feel safe sharing information on the platform.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+            </div>
+            <div class="form-group">
+                <h2>D. Effectiveness and Support Features</h2>
+                <p id="quest">Mental health resources provided are accessible and relevant.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">Scheduling appointments with guidance counselors is convenient and straightforward.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">I feel the system recommendations are practical and useful for managing concerns.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+
+                <p id="quest">The system makes it easier for users to express concerns and seek support.</p>
+                <label for=""><input type="radio" name="ans" value="1" class="inputRadio">1 (Strongly Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="2" class="inputRadio">2 (Disagree)</label>
+                <label for=""><input type="radio" name="ans" value="3" class="inputRadio">3 (Agree)</label>
+                <label for=""><input type="radio" name="ans" value="4" class="inputRadio">4 (Strongly Agree)</label>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
